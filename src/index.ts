@@ -1,4 +1,6 @@
-const doSomething = () => {
+type TDoSomething = () => void
+
+const doSomething: TDoSomething = () => {
     console.log("Did something")
 }
 
