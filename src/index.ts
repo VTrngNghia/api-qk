@@ -1,11 +1,25 @@
-type TDoSomething = () => void
+import {IApiInstance} from "./types";
+import axios, {AxiosRequestConfig} from "axios";
+import EPlatform from "./config/EPlatform";
 
-const doSomething: TDoSomething = () => {
-    console.log("Did something")
+interface IInitParams  extends AxiosRequestConfig{
+    baseUrl: string
 }
 
+const baseConfig = {
+  timeout: 15000,
+  headers: {
+    platform: EPlatform.web
+  },
+}
+
+const happyTime = axios.create(baseConfig)
+const happyGame = axios.create(baseConfig)
+
+
 const api = {
-    doSomething
+    happyTime,
+    happyGame
 }
 
 export default api;

@@ -14,5 +14,8 @@
     "build": "yarn build:esm && yarn build:cjs",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs",
     "build:esm": "tsc"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }
