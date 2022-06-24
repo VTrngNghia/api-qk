@@ -14,7 +14,7 @@ export interface IAnyResponseData {
     [key: string]: any;
 }
 
-interface IApiInstance extends AxiosInstance {
+export interface IApiInstance extends AxiosInstance {
     request<ResData = any, Res = IApiResponse & ResData, ReqData = any>(config: AxiosRequestConfig<ReqData>): Promise<Res>;
 
     get<T = IAnyResponseData>(
