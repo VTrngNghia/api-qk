@@ -1,4 +1,4 @@
-import happyTimeInstance from "../../instances/happyTime";
+import happyTimeInstance from "../../instances/happytime";
 import {ILoginRequest, ILoginResponse} from "./auth.type";
 
 
