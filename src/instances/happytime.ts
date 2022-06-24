@@ -35,7 +35,7 @@ happyTimeInstance.interceptors.response.use(
             error.response?.data || error.response,
         );
 
-        return error;
+        Promise.reject(error);
     }
 )
 
