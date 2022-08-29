@@ -2,8 +2,8 @@ import auth from "./auth";
 import employee from "./employee";
 
 const happyTimeApi = {
-    auth,
-    employee,
-}
+  auth,
+  employee,
+};
 
-export default happyTimeApi
+export default happyTimeApi;

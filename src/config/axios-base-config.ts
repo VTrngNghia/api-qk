@@ -1,12 +1,12 @@
 import EPlatform from "./enums/EPlatform";
-import {AxiosRequestConfig} from "axios";
+import { AxiosRequestConfig } from "axios";
 
 const axiosBaseConfig: AxiosRequestConfig = {
-    baseURL: "",
-    timeout: 15000,
-    headers: {
-        platform: EPlatform.web
-    },
-}
+  baseURL: "",
+  timeout: 15000,
+  headers: {
+    platform: EPlatform.web,
+  },
+};
 
-export default axiosBaseConfig
+export default axiosBaseConfig;

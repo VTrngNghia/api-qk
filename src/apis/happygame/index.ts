@@ -1,5 +1,5 @@
 const happyGameApi = {
-    // game, points, events, ...
-}
+  // game, points, events, ...
+};
 
-export default happyGameApi
+export default happyGameApi;

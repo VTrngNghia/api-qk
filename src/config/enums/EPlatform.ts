@@ -1,7 +1,7 @@
 enum EPlatform {
-    web = 1,
-    android = 2,
-    ios = 3
+  web = 1,
+  android = 2,
+  ios = 3,
 }
 
-export default EPlatform
+export default EPlatform;

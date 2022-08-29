@@ -1,6 +1,7 @@
 import axios from "axios";
 import axiosBaseConfig from "../config/axios-base-config";
+import { IApiInstance } from "../types/axios-instance";
 
-const happyGameInstance = axios.create(axiosBaseConfig)
+const happyGameAxiosInstance: IApiInstance = axios.create(axiosBaseConfig);
 
-export default happyGameInstance
+export default happyGameAxiosInstance;

@@ -1,10 +1,10 @@
-import happyTimeInstance from "../../instances/happytime";
-import {ILoginRequest, ILoginResponse} from "./auth.type";
-
+import happyTimeAxiosInstance from "../../instances/happytime";
+import { ILoginRequest, ILoginResponse } from "./auth.type";
 
 const auth = {
-    login: (body: ILoginRequest) => happyTimeInstance.post<ILoginResponse>("/auth/login", body),
-    logout: () => happyTimeInstance.post("/auth/logout")
-}
+  login: (body: ILoginRequest) =>
+    happyTimeAxiosInstance.post<ILoginResponse>("/auth/login", body),
+  logout: () => happyTimeAxiosInstance.post("/auth/logout"),
+};
 
-export default auth
+export default auth;

@@ -1,6 +1,6 @@
 enum EEmploymentStatus {
-    active = 1,
-    inactive = 2,
+  active = 1,
+  inactive = 2,
 }
 
-export default EEmploymentStatus
+export default EEmploymentStatus;

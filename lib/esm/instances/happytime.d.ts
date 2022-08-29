@@ -1,2 +1,2 @@
-declare const happyTimeInstance: import("axios").AxiosInstance;
-export default happyTimeInstance;
+declare const happyTimeAxiosInstance: import("axios").AxiosInstance;
+export default happyTimeAxiosInstance;
